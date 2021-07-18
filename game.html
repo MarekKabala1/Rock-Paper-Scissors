@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock paper scissors</title>
+    <link rel="stylesheet" href="stylegame.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="logo">
+        <h1>Rock-Paper-Scissors</h1>
+      </div>
+      <div class="welcome">
+        <h1>Welcome in the game. <br /><span>Press button to start</span></h1>
+        <div class="btn1">
+          <button class="btn" id="startGame">Start</button>
+        </div>
+      </div>
+      <div class="wrapp">
+        <div class="game">
+          <div class="score">
+            <div class="player-score">
+              <h2>Player Score</h2>
+              <p>0</p>
+            </div>
+            <div class="computer-score">
+              <h2>Computer Score</h2>
+              <p>0</p>
+            </div>
+          </div>
+          <div class="value">
+            <h3></h3>
+          </div>
+          <div class="hands">
+            <div class="player">
+              <img class="img" id="pImg" src="rock.png" alt="" />
+            </div>
+            <div class="game-btn">
+              <button class="btn" id="rock">rock</button>
+              <button class="btn" id="paper">paper</button>
+              <button class="btn" id="scissors">scissors</button>
+            </div>
+            <div class="computer">
+              <img class="img" id="cImg" src="rock.png" alt="" />
+            </div>
+          </div>
+          <div class="movesLeft">
+            <h3>Moves Left: 5</h3>
+          </div>
+        </div>
+      </div>
+      <div class="result">
+        <h1>Result</h1>
+        <button class="btn" id="new">New Game</button>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
